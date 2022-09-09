@@ -10,10 +10,11 @@
     <?php
     $parola=$_POST["word"];
     $newParola="lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quo!";
-    $parolaCensurata = str_replace($parola, '****', $newParola);
+    $parolaCensurata = str_replace($parola, '***', $newParola);
     ?>
     <p>
-        <?php echo $parolaCensurata ?> 
+        
+    <?php echo $parolaCensurata ?> 
     </p>
 </body>
 </html>
