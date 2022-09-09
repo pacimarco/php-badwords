@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div></div>
     <?php
     $parola=$_POST["word"];
     $newParola="lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quo!";
