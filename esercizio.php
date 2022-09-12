@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div></div>
+    
     <?php
     $parola=$_POST["word"];
     $newParola="lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quo!";
@@ -21,7 +21,7 @@
     </p>
 
     <p>
-       la lunghezza è: <?php echo $lunghezzaTesto ?> caratteri
+       la lunghezza è: <?php echo $lunghezzaTesto ?> caratteri!
     </p>
 </body>
 </html>
